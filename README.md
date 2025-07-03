@@ -13,3 +13,5 @@ $$y=ax^3+bx^2+cx+d$$
 $\huge y=a \cdot x^3 + b \cdot x^2 + c \cdot x + d$
 
 $\huge y''=3a \cdot x^2 + 2b \cdot x + c$
+
+$\huge y'''=6a \cdot x + 2b$
