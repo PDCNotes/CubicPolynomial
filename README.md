@@ -19,3 +19,5 @@ $\huge y''=6a \cdot x + 2b$
 $\huge y''=0 @ x=-\frac{b}{3a}$
 
 $\huge y'=0 @ x=-\frac{b}{3a} \pm \frac{\sqrt{b^2-3ac}}{3a}$
+
+$\huge y'=0 @ x=-\frac{b}{3a} \pm \sqrt{\left(\frac{b}{3a}\right)^2-\frac{c}{3a}}$
