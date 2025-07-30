@@ -21,3 +21,7 @@ $\huge y''=0 @ x=-\frac{b}{3a}$
 $\huge y'=0 @ x=-\frac{b}{3a} \pm \frac{\sqrt{b^2-3ac}}{3a}$
 
 $\huge y'=0 @ x=-\frac{b}{3a} \pm \sqrt{\left(\frac{b}{3a}\right)^2-\frac{c}{3a}}$
+
+Location x where $\huge   y' = -y' @ y''=0 @ x=-\frac{b}{3a}$
+
+$\huge y'=0 @ x=-\frac{b}{3a} \pm \sqrt{2\left[\left(\frac{b}{3a}\right)^2-\frac{c}{3a}\right]}$
