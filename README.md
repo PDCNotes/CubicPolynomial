@@ -25,3 +25,23 @@ $\huge y'=0 @ x=-\frac{b}{3a} \pm \sqrt{\left(\frac{b}{3a}\right)^2-\frac{c}{3a}
 Location x where $\huge   y' = -y' @ y''=0 @ x=-\frac{b}{3a}$
 
 $\huge y'=0 @ x=-\frac{b}{3a} \pm \sqrt{2\left[\left(\frac{b}{3a}\right)^2-\frac{c}{3a}\right]}$
+
+## Roots of Cubic Polynomial
+
+$\huge B=\frac{-2b}{a}$
+
+$\huge C=\frac{6c}{a}$
+
+$\huge D=\frac{-108d}{a}$
+
+$\huge P=B^2-2C$
+
+$\huge Q=B(P-C)+D$
+
+$\huge V=C^2(3P-2C)-D(2Q-D)$
+
+If $\huge V >= 0$
+
+$\huge T=\frac{ATAN2(Q,\sqrt{V})}{3}$
+
+Elseif $\huge V < 0$
