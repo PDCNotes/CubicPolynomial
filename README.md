@@ -40,8 +40,30 @@ $\huge Q=B(P-C)+D$
 
 $\huge V=C^2(3P-2C)-D(2Q-D)$
 
-If $\huge V >= 0$
+If $\huge V >= 0$, three real value roots.
+
+If $\huge Q^2 = V = 0$ then $\huge T = 0$
 
 $\huge T=\frac{ATAN2(Q,\sqrt{V})}{3}$
 
-Elseif $\huge V < 0$
+$\huge R=\sqrt{P}$
+
+$\huge X=R cos(T)$
+
+$\huge Y= \sqrt{3} R sin(T)$
+
+$$\huge x=
+\left[
+\begin{array}{l}
+  \frac{B+X+X}{6} \\
+  \frac{B-X+Y}{6} \\
+  \frac{B-X-Y}{6}
+\end{array}
+\right] $$
+
+
+
+Elseif $\huge V < 0$, one real value root.
+
+$\huge x=\frac{B+\sqrt[3]{Q+\sqrt{-V}}+\sqrt[3]{Q-\sqrt{-V}}}{6}$
+
