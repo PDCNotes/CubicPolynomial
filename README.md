@@ -61,7 +61,7 @@ $$\huge x=
 \end{array}
 \right] $$
 
-
+$$ \huge x=\begin{bmatrix}  \frac{B+X+X}{6} \\  \frac{B-X+Y}{6} \\  \frac{B-X-Y}{6} \end{bmatrix} $$
 
 Elseif $\huge V < 0$, one real value root.
 
