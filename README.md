@@ -1,7 +1,42 @@
 # Cubic Polynomial
 Properties of cubic polynomials.
 
+## General Cubic Polynomial
+$\huge y=a{x}^{3}+b{x}^{2}+c{x}+d $
 
+$\huge y'=3a{x}^{2}+2b{x}+c $
+
+$\huge y'=6a{x}+2b $
+
+### Scale y to Y
+
+$\huge Y=\frac{y}{a} \to y=aY $
+
+$\huge B=\frac{b}{a} $
+
+$\huge C=\frac{c}{a} $
+
+$\huge D=\frac{d}{a} $
+
+$\huge Y={x}^{3}+B{x}^{2}+C{x}+D $
+
+### Shift x to t
+
+$\huge x=t-\frac{B}{3} $
+
+$\huge P={B}^{2}-3C $
+
+$\huge Q=B(2{B}^{2}-9C)+27D=B(2P-3C)+27D $
+
+$\huge Y=\frac{27{t}^{3}-9Pt+Q}{27} $
+
+$\huge Y'=\frac{9{t}^{2}-P}{3} $
+
+$\huge Y''=6{t} $
+
+
+
+# Testing
 
 $$y=ax^3+bx^2+cx+d$$
 
@@ -66,4 +101,5 @@ $$ \huge x=\begin{bmatrix}  \frac{B+X+X}{6} \\  \frac{B-X+Y}{6} \\  \frac{B-X-Y}
 Elseif $\huge V < 0$, one real value root.
 
 $\huge x=\frac{B+\sqrt[3]{Q+\sqrt{-V}}+\sqrt[3]{Q-\sqrt{-V}}}{6}$
+
 
