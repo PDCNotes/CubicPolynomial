@@ -2,38 +2,78 @@
 Properties of cubic polynomials.
 
 ## General Cubic Polynomial
+$$\huge \begin{aligned}
+  y(x) &=a{x}^{3}+b{x}^{2}+c{x}+d \\
+ y'(x) &=3a{x}^{2}+2b{x}+c \\
+y''(x) &=6a{x}+2b \\
+\end{aligned} $$
+
+Map $y(x)\to Y(t) $
+
+$$\huge \begin{aligned}
+     B &=\dfrac{b}{a} \\
+     C &=\dfrac{c}{a} \\
+     D &=\dfrac{d}{a} \\
+     P &={B}^{2}-3C \\
+     Q &=B(2{B}^{2}-9C)+27D=B(2P-3C)+27D \\
+     \\
+     y &=aY \\
+     x &=t-\dfrac{B}{3} \\
+     \\
+  Y(t) &=\dfrac{27{t}^{3}-9Pt+Q}{27} \\
+ Y'(t) &=\dfrac{9{t}^{2}-P}{3} \\
+Y''(t) &=6{t} \\
+\end{aligned} $$
+
+
+
 $\huge y(x)=a{x}^{3}+b{x}^{2}+c{x}+d $
 
 $\huge y'(x)=3a{x}^{2}+2b{x}+c $
 
 $\huge y''(x)=6a{x}+2b $
 
-$\huge B=\frac{b}{a} $
+$\huge B=\dfrac{b}{a} $
 
-$\huge C=\frac{c}{a} $
+$\huge C=\dfrac{c}{a} $
 
-$\huge D=\frac{d}{a} $
+$\huge D=\dfrac{d}{a} $
 
 $\huge P={B}^{2}-3C $
 
 $\huge Q=B(2{B}^{2}-9C)+27D=B(2P-3C)+27D $
 
+
+
+
+
 ### Map $y(x)\to Y(t) $
 
-$\huge Y=\frac{y}{a} \to y=aY $
+$\huge Y=\dfrac{y}{a} \to y=aY $
 
-$\huge x=t-\frac{B}{3} $
+$\huge x=t-\dfrac{B}{3} $
 
 
-$\huge Y(t)=\frac{27{t}^{3}-9Pt+Q}{27} $
+$\huge Y(t)=\dfrac{27{t}^{3}-9Pt+Q}{27} $
 
-$\huge Y'(t)=\frac{9{t}^{2}-P}{3} $
+$\huge Y'(t)=\dfrac{9{t}^{2}-P}{3} $
 
 $\huge Y''(t)=6{t} $
 
+### Inflection Point
 
+$\huge Y''(t)=6{t}=0 @ t=0 \therefore x=-\dfrac{B}{3} $
+
+$\huge Y'(0)=-\dfrac{P}{3} \therefore y'=-\dfrac{a}{3}P $
 
 # Testing
+
+$$\huge \begin{aligned}
+    x_1 &= 1 \\
+    x_2 &= 2 \\
+    x_3 &= 3
+\end{aligned} $$
+
 $\huge Y={x}^{3}+B{x}^{2}+C{x}+D $
 
 
