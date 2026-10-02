@@ -2,15 +2,11 @@
 Properties of cubic polynomials.
 
 ## General Cubic Polynomial
-$\huge y=a{x}^{3}+b{x}^{2}+c{x}+d $
+$\huge y(x)=a{x}^{3}+b{x}^{2}+c{x}+d $
 
-$\huge y'=3a{x}^{2}+2b{x}+c $
+$\huge y'(x)=3a{x}^{2}+2b{x}+c $
 
-$\huge y'=6a{x}+2b $
-
-### Scale y to Y
-
-$\huge Y=\frac{y}{a} \to y=aY $
+$\huge y''(x)=6a{x}+2b $
 
 $\huge B=\frac{b}{a} $
 
@@ -18,25 +14,28 @@ $\huge C=\frac{c}{a} $
 
 $\huge D=\frac{d}{a} $
 
-$\huge Y={x}^{3}+B{x}^{2}+C{x}+D $
-
-### Shift x to t
-
-$\huge x=t-\frac{B}{3} $
-
 $\huge P={B}^{2}-3C $
 
 $\huge Q=B(2{B}^{2}-9C)+27D=B(2P-3C)+27D $
 
-$\huge Y=\frac{27{t}^{3}-9Pt+Q}{27} $
+### Map $y(x)\to Y(t) $
 
-$\huge Y'=\frac{9{t}^{2}-P}{3} $
+$\huge Y=\frac{y}{a} \to y=aY $
 
-$\huge Y''=6{t} $
+$\huge x=t-\frac{B}{3} $
+
+
+$\huge Y(t)=\frac{27{t}^{3}-9Pt+Q}{27} $
+
+$\huge Y'(t)=\frac{9{t}^{2}-P}{3} $
+
+$\huge Y''(t)=6{t} $
 
 
 
 # Testing
+$\huge Y={x}^{3}+B{x}^{2}+C{x}+D $
+
 
 $$y=ax^3+bx^2+cx+d$$
 
